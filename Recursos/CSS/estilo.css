@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #484d50;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex h1 {
+    color: black;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header.rolagem {
+    background-color: black;
+    padding: 20px 4%;
+}
+
+header.rolagem a {
+    color: white;
+}
+
+header.rolagem h1 {
+    color: white;
+}
+
+.banner {
+    height: 100vh;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 4em;
+    align-items: center;
+}
+
+.banner h1 span {
+    color: #90021f;
+}
+
+.pg p {
+    font-size: 2em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grade-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.grade-container .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+.grade-container .card .grade {
+    text-align: center;
+    padding: 3rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 1px 30px 20px;
+}
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover {
+    opacity: 1;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.banner-livros {
+    height: 50vh;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-livros h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.banner-livros h1 span {
+    color: #90021f;
+}
+
+.ul-livro {
+    list-style-type: none;
+}
+
+.ul-livro li {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+.ul-livro li:hover {
+    width: 180px;
+}
+
+.ul-livro span {
+    padding: 22px;
+}
+
+.ul-livro li .icon {
+    color: white;
+    font-size: 2.2em;
+    transition: .2s;
+}
+
+.ul-livro li .text {
+    color: white;
+    font-size: 18px;
+    transform: scale(0);
+    transition: .2s;
+    transition-delay: .01s;
+}
+
+.ul-livro li:hover .text {
+    transform: scale(1);
+}
+
+.ul-livro a {
+    text-decoration: none;
+}
+
+.pg-poema p {
+    font-size: 1em;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+.grade-container-poema {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.grade-container-poema .card-poema {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+.grade-container-poema .card-poema .grade {
+    text-align: center;
+    padding: 3rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.banner-poemas {
+    height: 50vh;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-poemas h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.banner-poemas h1 span {
+    color: #90021f;
+}
